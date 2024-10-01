@@ -33,27 +33,24 @@ a:hover{
 }
 
 .title{
-  background-color: #d6e0f0;
+  background-color: #2b7a78; /* رنگ اصلی: سبز تیره */
   position: relative;
-
 }
-.middle-container{
 
-  background-color: #8d93ab;
+.middle-container{
+  background-color: #def2f1; /* رنگ دوم: خاکستری روشن */
   padding-top: 20px;
 }
+
 .bottom-container{
-
-  background-color: #393b44;
+  background-color: #fe8a71; /* رنگ تاکید: نارنجی ملایم */
   padding: 50px 0 20px;
-
 }
 
-  .bottom-spaceship{
-    width: 20rem;
-
-  }
+.bottom-spaceship{
+  width: 20rem;
 }
+
 
 .skill-row{
   width: 50%;
@@ -89,7 +86,7 @@ a:hover{
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
-   color: #000000;
+   color: #1a73e8; /* تغییر رنگ متن به آبی */
    font-family: serif;
    font-size: 20px;
    font-weight: 100;
@@ -101,15 +98,42 @@ a:hover{
    text-align: center;
    margin-bottom: 20px;
 }
-
 .btn:hover {
    background: #8D93AB;
    border: solid #FFFFFF 1px;
+   color: #FFFFFF; /* تغییر رنگ متن به سفید در حالت hover */
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
 }
+.footer-link i {
+  margin-right: 8px; /* فاصله بین آیکون و متن */
+  font-size: 20px; /* اندازه آیکون */
+  vertical-align: middle; /* تنظیم تراز آیکون با متن */
+}
+
+.footer-link {
+  color: #1a1a72; /* رنگ آبی تیره */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer-link:hover {
+  color: #000080; /* تغییر رنگ لینک در حالت hover */
+}
+.footer-link i {
+  font-size: 24px; /* اندازه آیکون‌ها */
+  transition: transform 0.5s ease; /* انیمیشن ملایم برای چرخش */
+}
+
+.footer-link:hover i {
+  transform: rotate(360deg); /* چرخش 360 درجه هنگام hover */
+}
+
+
 .copyright{
   font-size: 0.75rem;
   padding: 20px 0;
